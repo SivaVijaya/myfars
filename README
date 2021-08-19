@@ -1,0 +1,8 @@
+<!-- badges: start -->
+  [![R-CMD-check](https://github.com/SivaVijaya/myfars/workflows/R-CMD-check/badge.svg)](https://github.com/SivaVijaya/myfars/actions)
+  <!-- badges: end -->
+  
+  # FARS: Accident Data Analysis package
+  This package contains R functions for analyzing data from Fatality Analysis Reporting System (FARS) - 
+  [source](http://www.nhtsa.gov/Data/Fatality-Analysis-Reporting-System-(FARS)). 
+  

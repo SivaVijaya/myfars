@@ -12,7 +12,8 @@
 #' @inheritParams make_filename
 #' @inheritParams fars_read
 #' @examples
-#' fars_read_years(2013)
+#' \dontrun{
+#' fars_read_years(2013)}
 #'
 #' @importFrom mutate and select from dplyr package
 fars_read_years <- function(years) {

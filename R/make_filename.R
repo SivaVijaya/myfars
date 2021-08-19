@@ -5,7 +5,8 @@
 #' @param year as a string.
 #' @return file name with the year attached
 #' @examples
-#' make_filename("2013")
+#' \dontrun{
+#' make_filename("2013")}
 #'
 #' @export
 make_filename <- function(year) {

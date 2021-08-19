@@ -7,10 +7,11 @@
 #' @param filename Name of the csv file as a string.
 #' @return tibble data frame
 #' @examples
-#' fars_read("accident_2013.csv.bz2")
+#' \dontrun{
+#' fars_read("accident_2013.csv.bz2")}
 #'
 #' @importFrom readr read_csv function
-#' @importFrom dplyr tbl_df function
+#' @importFrom tibble as_tibble function
 #' @export
 fars_read <- function(filename) {
   if(!file.exists(filename))
@@ -18,5 +19,5 @@ fars_read <- function(filename) {
   data <- suppressMessages({
     readr::read_csv(filename, progress = FALSE)
   })
-  dplyr::tbl_df(data)
+  tibble::as_tibble()(data)
 }

@@ -5,7 +5,7 @@
 #' all the given years
 #' @param vector of years
 #' @return the summary of fatalities by month and year
-#' @example
+#' @examples
 #' \dontrun{
 #' fars_summarize_years <- function(years = c(2013, 2014, 2015))
 #' }

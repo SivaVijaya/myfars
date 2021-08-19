@@ -9,7 +9,8 @@
 #' "invalid STATE number: "
 #'
 #'  @example
-#'   fars_map_state(25,2013)
+#'  \dontrun{
+#'   fars_map_state(25,2013)}
 #'
 #' @importFrom filter from dplyr package
 #' @importFrom map from maps package
